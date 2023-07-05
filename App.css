@@ -1,0 +1,206 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+nav{
+  position: sticky;
+  top: 0px;
+}
+h1 {
+  font-size: 17px;
+  font-weight: bold;
+  color: #194f92;
+}
+nav ul {
+  list-style: none;
+  background-color: #cbd5f0  ;
+  display: flex;
+  flex-wrap: wrap;
+}
+ul li a{
+  text-decoration: none;
+  color: #194f92;
+  font-weight: bold;
+}
+li {
+  margin: 15px 10px;
+}
+#hamb{
+  display: none;
+}
+#hamb span{
+    background-color:#194f92;
+    width:30px;
+    height:3px;
+    margin: 3px 0px;
+    border-radius: 2px;
+}
+@media only screen and (min-width:791px) {
+li.menu{
+  display: flex;
+}
+}
+@media only screen and (max-width:590px) {
+  div#card{
+    width: 100vw;
+  }
+  }
+@media only screen and (max-width:790px) {
+  nav ul {
+      flex-direction: column;
+      align-items: center;
+  }
+  #hamb{
+    display: block;
+    position: absolute;
+    right: 15px;
+  }
+  #hambtn>span{
+    display: block;
+  }
+  li.menu{
+    display: none;
+  }
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: #faf6f2;
+}
+.button{
+  margin: 10px 15px;
+  background-color: #1c68ff;
+  color: white;
+  font-size: 12px;
+  width: 150px;
+  padding: 10px 5px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+#card {
+  background:url("webg.jpg") no-repeat center center/cover ;
+  /* background-color: #e1fcfd; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: white;
+  width: 50%;
+  /* height:200px; */
+  margin: 20px auto;
+  justify-content: center;
+  align-items: center;
+}
+#city{
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 8px;
+  color: white;
+}
+#card h2{
+  font-size:25px;
+  color: white;
+  margin-bottom:7px;
+}
+#card h1{
+  font-size: 50px;
+  color: white;
+}
+#temp{
+  text-align: center;
+}
+#all{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#newscard {
+  width:  300px;
+  /* height: 500px; */
+  margin: 7px;
+  border: 1px solid lightgrey;
+  /* background-color: cornsilk; */
+  box-shadow: 7px 7px 20px lightgray;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  /* justify-content: center; */
+}
+#newscard img{
+  width: 300px;
+  height: 275px;
+  margin-bottom: 7px;
+}
+#newscard h2{
+  font-size: 15px;
+  margin: 7px 8px;
+  text-align: justify;
+}
+#newscard div{
+  margin: 7px;
+  text-align: justify;
+}
+#btn{
+ border: none;
+ margin-bottom: 7px;
+}
+#btn a{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  font-size: 10px;
+  /* width: 150px; */
+  padding: 10px 5px;
+  font-weight: bold;
+  
+}
+/* #chbox{
+  position: absolute;
+  top: 15px;
+  right: 30px;
+}
+#tg{
+  position: absolute;
+  right: 55px;
+  top:13px;
+  font-weight: bold;
+} */
