@@ -10,7 +10,7 @@ The React News24 app is a web application that provides users with the latest ne
 - Responsive design for seamless user experience on various devices.
 - Search functionality to find specific news articles or cities.
 - Trending topics section to discover popular news topics.
-- 
+  
 ## Getting Started
 
 ### Prerequisites
@@ -19,12 +19,7 @@ The React News24 app is a web application that provides users with the latest ne
 
 ### Installation
 
-1. Clone the repository:
-
-   git clone https://github.com/deep56-dot/react-news24-app.git
-   cd react-news24-app
-
-2. Install the dependencies:
+1. Install the dependencies:
 
    npm install
 
